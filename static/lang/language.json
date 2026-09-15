@@ -1,0 +1,117 @@
+{
+  "site": {
+    "name": "Prototype"
+  },
+  "labels": {
+    "skipToContent": "Skip to main content"
+  },
+  "navbar": {
+    "heading": "Discover",
+    "links": [
+      {
+        "text": "Home",
+        "url": "index.html"
+      },
+      {
+        "text": "Destination",
+        "url": "#destination"
+      },
+      {
+        "text": "About",
+        "url": "#about"
+      },
+      {
+        "text": "Contact",
+        "url": "#contact"
+      }
+    ],
+    "Heading": "Plan a trip"
+  },
+  "footer": {
+    "brand": {
+      "heading": "Discover",
+      "text": "Helping you discover the world and create lasting memories.",
+      "social": [
+        {
+          "src": "static/img/footer/facebook.png",
+          "alt": "Facebook logo",
+          "url": "https://facebook.com",
+          "aria-label": "Connect with us on facebook"
+        },
+        {
+          "src": "static/img/footer/linkedin.png",
+          "alt": "LinkedIn logo",
+          "url": "https://linkedin.com",
+          "aria-label": "Connect with us on Linkedin"
+        },
+        {
+          "src": "static/img/footer/youtube.png",
+          "alt": "YouTube logo",
+          "url": "https://youtube.com",
+          "aria-label": "Connect with us on youtube"
+        }
+      ]
+    },
+    "columns": [
+      {
+        "heading": "Navigation",
+        "links": [
+          {
+            "label": "Home",
+            "url": "index.html"
+          },
+          {
+            "label": "Destinations",
+            "url": "destinations.html"
+          },
+          {
+            "label": "About",
+            "url": "about.html"
+          },
+          {
+            "label": "Contact",
+            "url": "contact.html"
+          }
+        ]
+      },
+      {
+        "heading": "Support",
+        "links": [
+          {
+            "label": "FAQ",
+            "url": "faq.html"
+          },
+          {
+            "label": "Travel Tips",
+            "url": "travel-tips.html"
+          },
+          {
+            "label": "Privacy Policy",
+            "url": "privacy-policy.html"
+          },
+          {
+            "label": "Terms of Service",
+            "url": "terms-of-service.html"
+          }
+        ]
+      }
+    ],
+    "subscribe": {
+      "heading": "Subscribe",
+      "text": "Get travel inspiration and exclusive offers straight to your inbox.",
+      "inputLabel": "Email address",
+      "buttonLabel": "Subscribe"
+    },
+    "copyright": " Discover.  All rights reserved."
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "url": "index.html"
+    },
+    {
+      "label": "Exercise",
+      "url": "exercise.html"
+    }
+  ]
+}

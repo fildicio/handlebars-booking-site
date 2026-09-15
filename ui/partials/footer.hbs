@@ -1,0 +1,73 @@
+<footer role="contentinfo" class="content__box">
+    <div>
+        <div>
+            <div class="footer__container">
+                <div class="container__wrapper">
+                    <div class="subgrid__wrapper">
+                        <div class="brand__title">
+                            <img src="static/img/footer/website-logo.png" alt="brand logo" class="brand__logo">
+                            <h4 class="text-h">{{language.footer.brand.heading}}</h4>
+                        </div>
+                        <div>
+                            <p class="text-p">{{language.footer.brand.text}}</p>
+                            <ul class="social__list">
+                                {{#each language.footer.brand.social}}
+                                <li>
+                                    <a href="{{url}}" aria-label="{{aria-label}}"><img src="{{src}}" alt="{{alt}}"
+                                            class="social__logo" aria-hidden="true"></a>
+                                </li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                    </div>
+                    {{#each language.footer.columns}}
+                    <div class="subgrid__wrapper">
+
+                        <h4 class="text-h">{{heading}}</h4>
+                        <ul class="ul__item">
+                            {{#each links}}
+                            <li class="list__item"><a href="{{url}}" class="list__link">{{label}}</a></li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                    {{/each}}
+                    <div class="subgrid__wrapper">
+                        <h4 class="text-h">{{language.footer.subscribe.heading}}</h4>
+                        <div>
+                            <p class="text-p">{{language.footer.subscribe.text}}</p>
+
+                            <form class="input-filed__wrapper">
+                                <label for="footer-email"
+                                    class="text-label">{{language.footer.subscribe.inputLabel}}</label>
+                                <input type="email" id="footer-email" name="email" class="footer__input-field"
+                                    placeholder="{{language.footer.subscribe.inputLabel}}">
+                                <button type="submit"
+                                    class="outlined__button" id="home-subscription">{{language.footer.subscribe.buttonLabel}}</button>
+                            </form>
+
+                            <p class="footer__status sr-only" role="status"></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <hr>
+        <div class="footer-copyright__wrapper">
+            <p class="text-p">&copy; <span id="footer-year"></span> {{language.footer.copyright}}</p>
+        </div>
+</footer>
+
+{{#if production}}
+<script src="static/js/all.js"></script>
+{{else}}
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="static/js/app.js"></script>
+{{/if}}
+
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{#if title}}{{title}} | {{/if}}{{language.site.name}}</title>
+    <link rel="stylesheet" href="static/{{#if production}}all{{else}}portal{{/if}}.css">
+</head>
+<body class="{{#if bodyClass}}{{bodyClass}}{{/if}}">
+    {{> body}}
+
+    {{#if production}}
+        <script src="static/js/all.js"></script>
+    {{else}}
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="static/js/app.js"></script>
+    {{/if}}
+</body>
+</html>

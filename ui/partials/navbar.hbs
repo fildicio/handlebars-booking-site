@@ -1,0 +1,20 @@
+<div class="navbar__container">
+    <div class="navbar__wrapper">
+        <a href="index.html" class="brand__title list__link">
+            <img src="static/img/footer/website-logo.png" alt="logo" class="brand__logo" aria-hidden="true">
+            {{language.navbar.heading}}
+        </a>
+
+        <nav aria-label="Main">
+            <ul class="navbar-links__wrapper">
+                {{#each language.navbar.links}}
+                <li class="list__item">
+                    <a href="{{url}}" class="list__link">{{text}}</a>
+                </li>
+                {{/each}}
+            </ul>
+        </nav>
+        <button type="button" class="outlined-navbar__button" id="find-a-trip">{{language.navbar.Heading}}</button>
+    </div>
+
+</div>

@@ -1,0 +1,31 @@
+{
+  "name": "pd-prototype-starter",
+  "version": "0.0.1",
+  "description": "Handlebars/Assemble + Less + Grunt prototype starter",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-asciify": "latest",
+    "grunt-assemble": "^0.6.3",
+    "grunt-browser-sync": "2.2.0",
+    "grunt-chokidar": "^1.0.0",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "handlebars-helper-repeat": "0.2.0",
+    "handlebars-helpers": "^0.10.0",
+    "jit-grunt": "^0.10.0",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-glob": "^1.1.1",
+    "time-grunt": "^2.0.0"
+  },
+  "dependencies": {
+    "jquery": "~3.7.0"
+  },
+  "scripts": {
+    "start": "grunt serve",
+    "build": "grunt build"
+  }
+}
