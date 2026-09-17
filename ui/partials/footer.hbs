@@ -6,7 +6,7 @@
                     <div class="subgrid__wrapper">
                         <div class="brand__title">
                             <img src="static/img/footer/website-logo.png" alt="brand logo" class="brand__logo">
-                            <h4 class="text-h">{{language.footer.brand.heading}}</h4>
+                            <h4 class="text-h ">{{language.footer.brand.heading}}</h4>
                         </div>
                         <div>
                             <p class="text-p">{{language.footer.brand.text}}</p>
@@ -59,15 +59,3 @@
             <p class="text-p">&copy; <span id="footer-year"></span> {{language.footer.copyright}}</p>
         </div>
 </footer>
-
-{{#if production}}
-<script src="static/js/all.js"></script>
-{{else}}
-<script src="node_modules/jquery/dist/jquery.js"></script>
-<script src="static/js/app.js"></script>
-{{/if}}
-
-
-</body>
-
-</html>

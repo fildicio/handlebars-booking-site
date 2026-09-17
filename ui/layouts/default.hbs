@@ -20,3 +20,14 @@
 </div>
 
 {{> footer}}
+
+{{#if production}}
+<script src="static/js/all.js"></script>
+{{else}}
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="static/js/app.js"></script>
+{{/if}}
+
+</body>
+
+</html>
