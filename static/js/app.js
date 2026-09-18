@@ -17,14 +17,5 @@
       }, 100);
        $("#footer-email").val("");
     });
-
-    $("#nav-toggle").on("click", function () {
-      var $btn = $(this);
-      var isOpen = $btn.attr("aria-expanded") === "true";
-      var next = !isOpen;
-
-      $btn.attr("aria-expanded", next);
-      $("#navbar-wrapper").toggleClass("navbar-links__wrapper-mobile", next);
-    });
   });
 })(jQuery);
