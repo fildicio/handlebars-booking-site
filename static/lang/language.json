@@ -5,6 +5,71 @@
   "labels": {
     "skipToContent": "Skip to main content"
   },
+  "mainHeading" : {
+    "heading": "Explore Amazing Places",
+    "text": "Find inspiration for your next adventure. Discover beautiful destinations and unique experience",
+    "tiles": [
+      {
+        "heading": "Mountain Escape",
+        "src": "static/img/body/mountain.png",
+        "text": "Breathe fresh air and explore scenic trails in the heart of the mountains",
+        "links": [
+          { "text": "Learn more", "url": "#mountain" },
+          { "text": "View details", "url": "#mountain-details" }
+        ]
+      },
+      {
+        "heading": "Coastal Bliss",
+        "src": "static/img/body/coastal.png",
+        "text": "Relax by the sea and enjoy charming towns and local cuisine.",
+        "links": [
+          { "text": "Learn more", "url": "#coastal" }
+        ]
+      },
+      {
+        "heading": "Forest Retreat",
+        "src": "static/img/body/forest.png",
+        "text": "Unwind in nature and reconnect with the outdoors.",
+        "links": [
+          { "text": "Learn more", "url": "#forest" },
+          { "text": "View details", "url": "#forest-details" }
+        ]
+      },
+      {
+        "heading": "Mountain Escape",
+        "src": "static/img/body/mountain1.png",
+        "text": "Breathe fresh air and explore scenic trails in the heart of the mountains",
+        "links": [
+          { "text": "Learn more", "url": "#mountain" },
+          { "text": "View details", "url": "#mountain-details" }
+        ]
+      },
+      {
+        "heading": "Coastal Bliss",
+        "src": "static/img/body/coastal1.png",
+        "text": "Relax by the sea and enjoy charming towns and local cuisine.",
+        "links": [
+          { "text": "Learn more", "url": "#coastal" }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "icon": {
+      "src": "static/img/body/suitcase.png",
+      "alt": ""
+    },
+    "heading": "Ready to start your journey?",
+    "text": "Create your itinerary and make unforgettable memories.",
+    "button": {
+      "text": "Plan Your Trip",
+      "url": "#plan-a-trip"
+    },
+    "link": {
+      "text": "Learn about our services",
+      "url": "#services"
+    }
+  },
   "navbar": {
     "heading": "Discover",
     "links": [
